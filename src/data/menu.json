@@ -1,0 +1,22 @@
+[
+    {
+        "label": "dashboard",
+        "link":"/",
+        "icon": "material-symbols:grid-view"
+    },
+    {
+        "label": "create",
+        "link":"/create",
+        "icon": "ic:outline-plus"
+    },
+    {
+        "label": "quotes",
+        "link":"/quotes",
+        "icon": "ph:files-fill"
+    },
+    {
+        "label": "templates",
+        "link":"/templates",
+        "icon": "ri:layout-4-fill"
+    }
+]

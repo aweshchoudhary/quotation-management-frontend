@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+
+html:root{
+    --primary: #000;
+    --background: #FFF;
+    --paper: #efefef;
+    --text: #000;
+    --border: #c3c3c3;
+}
+html.darkMode:root{
+    --primary: #000;
+    --background: #101010;
+    --paper: #242424;
+    --text: #ffffff;
+    --border: #676767;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+*{
+    border-color: var(--border);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    color: var(--text);
+}
+
+.input{
+    @apply border px-3 py-2 hover:border-txt rounded bg-transparent w-full outline-transparent outline-none focus:border-txt transition;
+}
+.btn-outlined{
+    @apply border flex items-center disabled:cursor-not-allowed gap-2 rounded px-3 py-2 capitalize hover:border-txt disabled:hover:border-border disabled:text-gray-400 transition; 
+}
+.btn-filled{
+    @apply border border-paper flex items-center gap-2 rounded px-3 py-2 capitalize bg-paper text-txt hover:opacity-70 transition; 
+}
+
+option{
+    @apply text-black;
+}
+
+@tailwind utilities;

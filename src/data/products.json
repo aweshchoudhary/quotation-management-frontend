@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "strip pack machine (10 track)",
+        "category": 1,
+        "model": "pms-sp-10t",
+        "description": "",
+        "features": [
+            {
+                "name": "Salient Features",
+                "list": [
+                    "Automatic Feeding, Sealing, Slitting and Cutting",
+                    "Reduction in labour cost and reduced production cost",
+                    "Models in the range from 2 tracks to 10 tracks and 40mm to 300mm sealing width.",
+                    "Take off conveyors of various sizes for conveying strips",
+                    "Customised to different sizes and shapes.",
+                    "It can handle for different heat sealable packing laminates.",
+                    "Digital Temperature control.",
+                    "Electrical motor ideal for 415 V/ 380 V/ 3 PH/ 50 CS/ AC Supply.",
+                    "All contacts parts are SS316.",
+                    "PLC Control panel (Optional)",
+                    "In compliance with cGMP.",
+                    "The change parts can easily replace."
+                ]
+            }
+        ],
+        "tables": [],
+        "rate": 1050000,
+        "qty": 1,
+        "unit": "nos"
+    }
+]
